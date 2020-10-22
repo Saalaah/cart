@@ -16,3 +16,8 @@ Set the post request body to be a valid JSON body like .<br />
     "currency":"usd",
     "products":["shoes","shoes","jacket","t-shirt"]
 }
+<br />
+##About the project
+1-The available currencies are EGP & USD (not case sensitve)
+2-You can add any currency (and its value according to 1 dollar) or Products at cart/models/Data.php
+3-You can add discount to any Product at cart/models/Data.php
