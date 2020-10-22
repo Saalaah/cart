@@ -22,3 +22,12 @@ Set the post request body to be a valid JSON like .<br />
 1-The available currencies are EGP & USD (not case sensitve).<br />
 2-You can add any currency (and its value according to 1 dollar) or Products at cart/models/Data.php.<br />
 3-You can add discount to any Product at cart/models/Data.php.<br />
+
+## How it's work
+The API file (api/index.php) gets the User Input JSON from The API client(postman).<br />
+The Objects that represents the Database is inside models/Data.php.<br />
+The Cart Class (at models/Cart.php) have some functions : .<br />
+    1-Validation Function: validates the input object .<br />
+    2-SpecialOffers Function: handle the special offer (2 t-shirts-> jacket 50% discount).<br />
+    3-Bill Function: Calculate the total price before and after Taxes and discounts AND BE Returned TO THE API FILE.<br />
+The API file give the Cart Class the input and and the DATA from the Data model then  gets the returned Object from the Bill function
