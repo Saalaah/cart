@@ -1,8 +1,8 @@
 # Cart
 REST API For Calculating the cart Products .<br />
 In this project you will be able to.<br />
-1- add products to the cart .<br />
-2- add the currency .<br />
+1- Add products to the cart .<br />
+2- Choose the currency .<br />
 
 # Starting the Project
 
