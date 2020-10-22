@@ -30,4 +30,4 @@ The Cart Class (at models/Cart.php) have some functions : .<br />
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  1-Validation Function: validates the input object .<br />
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  2-SpecialOffers Function: handle the special offer (2 t-shirts-> jacket 50% discount).<br />
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  3-Bill Function: Calculate the total price before and after Taxes and discounts AND BE Returned TO THE API FILE.<br />
-The API file give the Cart Class the input and and the DATA from the Data model then  gets the returned Object from the Bill function
+The API file give the Cart Class the input and the DATA from the Data model then  gets the returned Object from the Bill function
